@@ -9,7 +9,10 @@ namespace std
             int b = 11;
             
 
-            Console.Write(Sum.Calculate(12,12));
+            Console.WriteLine(Sum.AddOperator(12,12));
+            Console.WriteLine(Sum.MinusOperator(12,2));
+            Console.WriteLine(Sum.TimeOperator(5,6));
+            Console.WriteLine(Sum.DivOperator(5,6));
 
         }
 
