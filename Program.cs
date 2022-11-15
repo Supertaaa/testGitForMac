@@ -1,24 +1,18 @@
 ﻿using System;
 using testLib;
+using OpenCvSharp;
+
+
 namespace std
 {
     class Program
     {
         public static void Main(string[] args){
-            int a = 10;
-            int b = 11;
-            
-
-            Console.WriteLine(Sum.AddOperator(12,12));
-            Console.WriteLine(Sum.MinusOperator(12,2));
-            Console.WriteLine(Sum.TimeOperator(5,6));
-            Console.WriteLine(Sum.DivOperator(5,6));
+            Mat img = new Mat("/Users/apple/Downloads/BackGround/meinthepast.jpg");
+            Cv2.ImShow("Me", img);
+            Cv2.WaitKey(0);
 
         }
 
-        
-        // public static int Sum(int a, int b){
-        //     return a + b;
-        // }
     }
 }
