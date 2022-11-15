@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZgoVJZ9AMmAhwss4GoGkgpE4cmkJq2xZdeDSD3qpLZ553a4Up4qfyqGrU6acyouroHy2bEIa7GYqolanZxj0vA==",
+  "success": true,
+  "projectFilePath": "/Users/apple/Documents/CSharpProject/CSharpProject.csproj",
+  "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/opencvsharp4/4.0.1.20190326/opencvsharp4.4.0.1.20190326.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.drawing.common/4.5.1/system.drawing.common.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
